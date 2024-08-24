@@ -12,15 +12,15 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#link">Café</Nav.Link>
-            <NavDropdown title="Menu" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Expresso</NavDropdown.Item>
+            <Nav.Link href="#about">Café</Nav.Link>
+            <NavDropdown title="#review" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#Menu">Expresso</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Cappuchino
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Americano</NavDropdown.Item>
+              <NavDropdown.Item href="#Menu">Americano</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="#about">
                 Contacto
               </NavDropdown.Item>
             </NavDropdown>
