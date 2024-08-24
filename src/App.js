@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+/* import Img from './images'; */
 import About from '../src/components/About';
 import Menu from '../src/components/Menu';
 import Brand from '../src/components/Brand';
@@ -14,7 +15,7 @@ import Home from '../src/components/Home';
 function App() {
   return (
     <>
-    <Home />
+    <Home />  
     <About />
     <Menu />
     <Brand />
@@ -22,6 +23,7 @@ function App() {
     <Newsletter />
     <Footer />
     <ScrollUp />
+    {/* <Img /> */}
   </>
 );
 }
