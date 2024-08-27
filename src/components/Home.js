@@ -1,4 +1,8 @@
 import React from 'react';
+import HomeImg1 from '../images/homeImg1.jpg';
+import HomeImg2 from '../images/homeImg2.jpg';
+import HomeImg3 from '../images/homeImg3.jpg';
+
 
 const Home = () => {
   return (
@@ -7,7 +11,7 @@ const Home = () => {
         <div className="swiper mySwiper">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <img src="images/homeImg1.jpg" alt="" className="home-img" />
+              <img src={HomeImg1} alt="" className="home-img" />
               <div className="home-details">
                 <div className="home-text">
                   <h4 className="homeSubtitle">U'll really like what we do</h4>
@@ -17,7 +21,7 @@ const Home = () => {
               </div>
             </div>
             <div className="swiper-slide">
-              <img src="images/homeImg2.jpg" alt="" className="home-img" />
+              <img src={HomeImg2} alt="" className="home-img" />
               <div className="home-details">
                 <div className="home-text">
                   <h4 className="homeSubtitle">Enjoy the finest coffee drinks.</h4>
@@ -27,7 +31,7 @@ const Home = () => {
               </div>
             </div>
             <div className="swiper-slide">
-              <img src="images/homeImg3.jpg" alt="" className="home-img" />
+              <img src={HomeImg3} alt="" className="home-img" />
               <div className="home-details">
                 <div className="home-text">
                   <h4 className="homeSubtitle">Making Our coffee with lover.</h4>

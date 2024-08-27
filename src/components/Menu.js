@@ -1,4 +1,8 @@
 import React from 'react';
+import M1 from '../images/m1.png';
+import M2 from '../images/m2.png';
+import M3 from '../images/m3.png';
+import M4 from '../images/m4.png';
 
 const Menu = () => {
   return (
@@ -13,10 +17,10 @@ const Menu = () => {
         </div>
         <div className="menu-content">
           <div className="menu-items">
-            <MenuItem imgSrc="images/m4.png" topic="Americano Roasted Coffee" description="It is a long established fact that a reader will be distracted by the readable." discountPrice="$18.99" realPrice="$20.66" />
-            <MenuItem imgSrc="images/m1.png" topic="Americano Roasted Coffee" description="It is a long established fact that a reader will be distracted by the readable." discountPrice="$18.99" realPrice="$20.66" />
-            <MenuItem imgSrc="images/m2.png" topic="Americano Roasted Coffee" description="It is a long established fact that a reader will be distracted by the readable." discountPrice="$18.99" realPrice="$20.66" />
-            <MenuItem imgSrc="images/m3.png" topic="Americano Roasted Coffee" description="It is a long established fact that a reader will be distracted by the readable." discountPrice="$18.99" realPrice="$20.66" />
+            <MenuItem imgSrc={M4} topic="Americano Roasted Coffee" description="It is a long established fact that a reader will be distracted by the readable." discountPrice="$18.99" realPrice="$20.66" />
+            <MenuItem imgSrc={M1} topic="Americano Roasted Coffee" description="It is a long established fact that a reader will be distracted by the readable." discountPrice="$18.99" realPrice="$20.66" />
+            <MenuItem imgSrc={M2} topic="Americano Roasted Coffee" description="It is a long established fact that a reader will be distracted by the readable." discountPrice="$18.99" realPrice="$20.66" />
+            <MenuItem imgSrc={M3} topic="Americano Roasted Coffee" description="It is a long established fact that a reader will be distracted by the readable." discountPrice="$18.99" realPrice="$20.66" />
           </div>
           <TimeTable />
         </div>
