@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 import HomeImg1 from '../images/homeImg1.jpg';
 import HomeImg2 from '../images/homeImg2.jpg';
 import HomeImg3 from '../images/homeImg3.jpg';

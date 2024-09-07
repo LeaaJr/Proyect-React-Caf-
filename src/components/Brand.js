@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 import BrandImg1 from '../images/brandImg1.png';
 import BrandImg2 from '../images/brandImg2.png';
 import BrandImg3 from '../images/brandImg3.png';

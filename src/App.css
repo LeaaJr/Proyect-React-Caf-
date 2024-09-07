@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/* body{
-  background: rgb(42,32,9);
-  background: linear-gradient(137deg, rgba(42,32,9,1) 7%, rgba(106,72,6,1) 92%);
-
-} */
-
 .App {
   text-align: center;
 
@@ -178,7 +172,7 @@
 }
 
 /* Header */
-.header {
+.Header {
   position: fixed;
   top: 0;
   left: 0;

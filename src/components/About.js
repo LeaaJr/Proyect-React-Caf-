@@ -1,12 +1,13 @@
 import React from 'react';
 import Aboutimg from '../images/aboutImg.jpg';
+import '../App.css';
 
 const About = () => {
   return (
     <section className="section about" id="about">
       <div className="about-content container">
         <div className="about-imageContent">
-          <img src={Aboutimg} alt="" className="about-img" />
+          <img src={Aboutimg} className="about-img" />
           <div className="aboutImg-textBox">
             <i className='bx bx-heart heart-icon flex'></i>
             <p className="content-description">I really love the Cappucino. The coffee was very smooth.</p>
