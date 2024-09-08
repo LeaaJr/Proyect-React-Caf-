@@ -9,12 +9,14 @@ import Newsletter from '../src/components/Newsletter';
 import Footer from '../src/components/Footer';
 import ScrollUp from '../src/components/ScrollUp';
 import Home from '../src/components/Home';
+import Header from './components/Header';
 
 
 function App() {
   return (
     <>
     <div>
+      <Header />
       <Home /> 
       <About /> 
       <Menu />
