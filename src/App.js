@@ -10,6 +10,7 @@ import Footer from '../src/components/Footer';
 import ScrollUp from '../src/components/ScrollUp';
 import Home from '../src/components/Home';
 import Header from './components/Header';
+/* import Scripts from './utiilites/Scripts'; */
 
 
 function App() {

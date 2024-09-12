@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SwiperCore, { Pagination, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
-import './App.css';
+import '../App.css'
 import ScrollReveal from 'react-scroll-reveal';
 
 SwiperCore.use([Pagination, Navigation]);

@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Scripts from './utiilites/Scripts';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App>
-
-    <Scripts />
 
     </App>
   </React.StrictMode>
